@@ -15,12 +15,12 @@ export default function Events() {
         <h2 className="text-3xl font-bold text-[#463B75] mb-12">OUR EVENTS</h2>
         <div className="grid grid-cols-12 gap-4 relative">
           {/* GR SVG Image */}
-          <div className="absolute top-0 right-0 z-10 -mt-44">
+          <div className="absolute top-0 right-[-70px] z-10 -mt-32">
             <Image
               src="/gr.svg"
               alt="Decorative Element"
-              width={200}
-              height={200}
+              width={150}
+              height={150}
               className="object-contain"
             />
           </div>

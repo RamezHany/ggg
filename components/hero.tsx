@@ -7,8 +7,8 @@ import { ScrollAnimation } from './animations/scroll-animation'
 
 export default function Hero() {
   return (
-    <div className="relative isolate overflow-hidden bg-white mt-20 sm:mt-24 min-h-screen border-b-2 border-gray-200" id="about">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2 h-full flex flex-col justify-center">
+    <div className="relative isolate overflow-hidden bg-white mt-20 sm:mt-24 min-h-[85vh] border-b-2 border-gray-200" id="about">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 py-2 h-full flex flex-col justify-start">
         {/* Main Content Container */}
         <div className="flex flex-col items-center justify-center">
           {/* Top Title */}
@@ -44,7 +44,7 @@ export default function Hero() {
             </div>
 
             {/* Middle - Vector Image */}
-            <div className="relative w-full mx-auto -mt-8 sm:-mt-32 order-1 sm:order-2">
+            <div className="relative w-full mx-auto -mt-8 sm:-mt-16 order-1 sm:order-2">
               <ScrollAnimation direction="up">
                 <Image
                   src="/hero-vector.svg"
