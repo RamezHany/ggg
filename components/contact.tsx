@@ -13,7 +13,7 @@ export default function Contact() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1610116306796-6fea9f4fae38?q=80&w=2070"
+          src="/co-bg.svg"
           alt="VR Education"
           fill
           className="object-cover brightness-50"
