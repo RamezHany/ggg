@@ -37,6 +37,9 @@ export default function Hero() {
                 <Button 
                   size="lg" 
                   className="bg-[#463B75] hover:bg-[#362C5A] transform transition-all hover:scale-105 text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6"
+                  onClick={() => {
+                    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                  }}
                 >
                   Get Started
                 </Button>

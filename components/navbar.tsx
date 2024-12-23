@@ -60,7 +60,11 @@ export default function Navbar() {
                 {item.label}
               </Link>
             ))}
-            <Button className="bg-[#463B75] hover:bg-[#362C5A]">
+            <Button className="bg-[#463B75] hover:bg-[#362C5A]"
+                              onClick={() => {
+                                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                              }}
+            >
               Contact Us
             </Button>
           </div>
@@ -107,7 +111,10 @@ export default function Navbar() {
               <div className="pt-2">
                 <Button 
                   className="w-full bg-[#463B75] hover:bg-[#362C5A]"
-                  onClick={() => setIsOpen(false)}
+                  onClick={() => {
+                    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                    setIsOpen(false)
+                  }}
                 >
                   Contact Us
                 </Button>
