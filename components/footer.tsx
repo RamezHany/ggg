@@ -6,13 +6,6 @@ import { motion } from 'framer-motion'
 import { Facebook, Twitter, Instagram, Youtube, Linkedin, Phone, Mail, MapPin } from 'lucide-react'
 
 const navigation = {
-  main: [
-    { name: 'About Us', href: '#' },
-    { name: 'Contact Us', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Privacy Policy', href: '#' },
-    { name: 'Site Map', href: '#' },
-  ],
   social: [
     { name: 'Facebook', icon: Facebook, href: '#', color: '#1877F2' },
     { name: 'Twitter', icon: Twitter, href: '#', color: '#1DA1F2' },
@@ -50,22 +43,7 @@ export default function Footer() {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Links</h3>
-            <ul className="space-y-3">
-              {navigation.main.map((item) => (
-                <li key={item.name}>
-                  <Link 
-                    href={item.href} 
-                    className="text-gray-600 hover:text-[#463B75] transition-colors flex items-center group"
-                  >
-                    <span className="w-1 h-1 bg-[#463B75] rounded-full mr-2 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    {item.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+   
 
           {/* Contact Info */}
           <div>

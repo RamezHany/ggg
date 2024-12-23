@@ -48,7 +48,7 @@ export default function Contact() {
           >
             <div className="flex items-center justify-between mb-6">
               <h3 className="text-2xl font-bold text-[#463B75]">
-                {isPartner ? 'Partner Sign up' : 'School Sign up'}
+                {isPartner ? 'Partner Form' : 'School Form'}
               </h3>
               <div className="flex bg-gray-100 p-1 rounded-full">
                 <button
@@ -162,7 +162,7 @@ export default function Contact() {
                 type="submit" 
                 className="w-full bg-[#463B75] hover:bg-[#362C5A] text-white font-semibold py-4"
               >
-                Sign up
+                Send Message
               </Button>
             </form>
           </motion.div>
